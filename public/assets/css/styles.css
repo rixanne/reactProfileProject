@@ -1,0 +1,88 @@
+  
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+body {
+  font-family: "Poppins", Arial, sans-serif; 
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 300;
+  color: gray;
+  background-image: "img/react-lake-thumb.jpg";
+  background-size: cover;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
+
+.text-primary {
+      color: #c49b63 !important; }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+
+h1, h2, h3 {
+  line-height: 1.4;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Josefin Sans", Arial, sans-serif; }
+
+
+.site-footer {
+  background-image: url(img/bg_2.jpg);
+  padding: 20px 0; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #393450, rgba(46, 55, 80, 0.986), #d4a50b);
+  color: white; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.navbar {
+  background-color: #84648d; }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #02000a; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+  
+
+#reserveModal .modal-header {
+  background-color: #e2cf26;
+  color: black; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
+
+#map {
+  height: 400px;
+  width: 100%; }
+  @media (max-width: 991.98px) {
+    #map {
+      height: 300px; } }
